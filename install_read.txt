@@ -1,0 +1,5 @@
+1. 这个用到了mxnet，所以需要把lib那些拿进来，有一个bug就是lib的名字，在lib目录下居然不是libmxnet
+2.这个路径定义需要人工移动到out里，cmake里面没有配置
+3.用到了opencv4.0还有OpenBLAS 
+4.https://github.com/njvisionpower/mxnet-insightface-cpp
+5、prebuildbase_win10_x64_vc14_v2这个包里需要一些环境，所以需要自动安装这个脚本
